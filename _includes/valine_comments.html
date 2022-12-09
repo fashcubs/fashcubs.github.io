@@ -1,0 +1,30 @@
+<script>
+    new Valine({
+        av: AV,
+        el: '#comments',
+        app_id: 'JDVYYFMr1UFSl4srOgHY5Uks-MdYXbMMI',
+        app_key: '9y0CKp1BEkveutixsUOYjfDJ',
+        placeholder:'{{ site.data.social.valine_comment.placeholder }}',
+        avatar:'robohash',
+        path:window.location.pathname,
+        guest_info:['nick','mail','link'] ,
+        pageSize:10,
+        serverURLs: 'https://api.robotkang.cc', 
+    });
+</script>
+
+
+<!--script>
+    new Valine({
+        av: AV,
+        el: '#comments',
+        app_id: '{{ site.data.social.valine_comment.leancloud_appid }}',
+        app_key: '{{ site.data.social.valine_comment.leancloud_appkey }}',
+        placeholder:'{{ site.data.social.valine_comment.placeholder }}',
+        avatar:'robohash',
+        path:window.location.pathname,
+        guest_info:['nick','mail','link'] ,
+        pageSize:10,
+        serverURLs: 'https://jdvyyfmr.api.lncldglobal.com', 
+    });
+</script-->

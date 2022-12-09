@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+  <title>留言板「MESSAGE」</title>
+  <meta name="description" content="科技、生活、音乐、人生">
+  <meta name="author" content="robotkang">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="留言板「MESSAGE」">
+  <meta name="twitter:description" content="科技、生活、音乐、人生">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="留言板「MESSAGE」">
+  <meta property="og:description" content="科技、生活、音乐、人生">
+  
+  <link rel="icon" type="image/png" href="/images/favicon.png" />
+  <link href="/images/favicon.png" rel="shortcut icon" type="image/png">
+  
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="canonical" href="http://localhost:4000/liuyan">
+  <link rel="alternate" type="application/rss+xml" title="Robotkang" href="http://localhost:4000/feed.xml">
+  
+  <meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />
+  
+<!-- 自动将http的不安全请求升级为https -->
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+<!-- 修正文章访问量统计、20201009 -->
+  <meta name="referrer" content="no-referrer-when-downgrade">
+
+<!-- Valine Comment -->
+    
+    <!--script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script-->
+    <script src="//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
+    <!--script src="//unpkg.com/valine/dist/Valine.min.js"></script-->
+    <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+   
+
+<!-- google ads -->
+    <script data-ad-client="ca-pub-7648908799310520" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+</head>
+
+
+  <body style="height:1000px;">
+
+  
+
+    <span class="mobile btn-mobile-menu">        
+      <div class="nav_container">
+         <nav class="nav-menu-item" style = "float:right">
+            <i class="nav-menu-item">
+              <a href="/#blog" title="" class="blog-button">  主页
+              </a>
+            </i>
+            
+                <i class="nav-menu-item">
+
+                  <a href="/archive" title="archive" class="btn-mobile-menu__icon">
+                      文章
+                  </a>
+                </i>
+            
+                <i class="nav-menu-item">
+
+                  <a href="/tags" title="tags" class="btn-mobile-menu__icon">
+                      标签
+                  </a>
+                </i>
+            
+                <i class="nav-menu-item">
+
+                  <a href="/liuyan" title="liuyan" class="btn-mobile-menu__icon">
+                      留言
+                  </a>
+                </i>
+            
+                <i class="nav-menu-item">
+
+                  <a href="/ziyuan" title="ziyuan" class="btn-mobile-menu__icon">
+                      资源
+                  </a>
+                </i>
+            
+                <i class="nav-menu-item">
+
+                  <a href="/about" title="about" class="btn-mobile-menu__icon">
+                      关于
+                  </a>
+                </i>
+            
+          </nav>
+      </div>
+    </span>
+
+
+    <header class="panel-cover panel-cover--collapsed">
+<style type="text/css">
+
+/* body {background-image:url(http://omjh2j5h3.bkt.clouddn.com/background.png);} */
+
+p.flower {background-image: url(http://omjh2j5h3.bkt.clouddn.com/background-cover.jpg); padding: 20px;}
+</style>
+  
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+        <!-- 头像效果-start -->
+        <div class="ih-item circle effect right_to_left">            
+            <a href="/#blog" title="前往 Robotkang 的主页" class="blog-button">
+                <div class="img"><img src="/images/avatar.jpg" alt="img"></div>
+                <div class="info">
+                    <div class="info-back">
+                        <h1> 
+                            
+                                RobotKang
+                            
+                        </h1>
+                        <p>
+                           
+                                机器人赛事
+                            
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- 头像效果-end -->
+        <h1 class="panel-cover__title panel-title"><a href="/#blog" title="link to homepage for Robotkang" class="blog-button">Robotkang</a></h1>
+        
+        <span class="panel-cover__subtitle panel-subtitle">欢迎走进我的世界</span>
+        
+        <hr class="panel-cover__divider" style="height:1px;border:none;border-top:1px solid #555555;"/>
+        <p class="panel-cover__description">科技、生活、音乐、人生</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" style="height:1px;border:none;border-top:1px solid #555555;"/>
+        
+        
+        
+
+        <div class="navigation-wrapper">
+          <div>
+            <nav class="cover-navigation cover-navigation--primary">
+              <ul class="navigation">
+                <li class="navigation__item"><a href="/#blog" title="" class="blog-button">主页</a></li>
+                
+                  <li class="navigation__item"><a href="/archive" title="archive">文章</a></li>
+                
+                  <li class="navigation__item"><a href="/tags" title="tags">标签</a></li>
+                
+                  <li class="navigation__item"><a href="/liuyan" title="liuyan">留言</a></li>
+                
+                  <li class="navigation__item"><a href="/ziyuan" title="ziyuan">资源</a></li>
+                
+                  <li class="navigation__item"><a href="/about" title="about">关于</a></li>
+                
+              </ul>
+            </nav>
+          </div>          
+        </div>
+
+
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="panel-cover--overlay cover-disabled"></div>
+    
+  </div>
+</header>
+
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="" itemprop="datePublished" class="post-meta__date date"></time>
+      <span class="post-meta__tags tags"></span>
+    </div>
+    <h1 class="post-title">留言板「MESSAGE」</h1>
+  </header>
+
+
+
+  <section class="post">
+    <p><img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/egypt-clipart-desert-pyramid.png" wwidth="100%" height="auto" alt="photos" /></p>
+
+<blockquote>
+  <p>有什么话要对我说吗？           <br />
+这里是你畅所欲言的地方，          <br />
+可以咨询，可以交流，可以感叹，可以发飙，但不可以订外卖 、、、</p>
+</blockquote>
+
+<div class="text-center" style="margin-top: 15px;">
+    <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E5%A4%9A%E5%90%88%E4%B8%80%E6%89%93%E8%B5%8F%E4%BA%8C%E7%BB%B4%E7%A0%81.png" width="128" height="128" title="支付宝、微信、手机QQ扫码打赏" />
+</div>
+
+<p>
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/log_yuan.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;" />
+<a href="/donation/" target="_blank" style="text-decoration:none;color:#FF4500">赞助光荣榜</a> &nbsp;&nbsp;
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/log_yuan.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;" />
+<a href="/dsimg/" style="text-decoration:none" target="_blank">Donation</a> &nbsp;&nbsp;
+<p>花径不曾缘客扫，蓬门今始为君开！
+我一直相信，所有的相遇都是一种缘分。能够看到这些文字，我们之间就已经产生了些不可言喻，却又令人期待的微妙联系。
+
+虽然不知文字维系的缘分会有多长。
+既然来了，请尽量享受O(∩_∩)O~。
+
+
+
+
+<!--<audio autoplay="autopaly" controls="controls" loop="loop"  preload="auto" id="audio1">
+	<source src="http://omjh2j5h3.bkt.clouddn.com/%E6%9D%8E%E7%8E%89%E5%88%9A%20-%20%E5%88%9A%E5%A5%BD%E9%81%87%E8%A7%81%E4%BD%A0.mp3" type="audio/mp3">你的浏览器不支持audio标签</a>
+	</audio>
+
+<div>  
+           
+ 
+<object width="330" height="180" data="http://music.163.com/style/swf/widget.swf?sid=441877316&type=0&auto=1&width=310&height=430" type="application/x-shockwave-flash"></object>  
+          
+  </div> 
+-->
+
+
+<div id="QPlayer" class="QPlayer">
+<div id="pContent">
+	<div id="player">
+<span class="cover"></span>
+<div class="ctrl">
+<div class="musicTag marquee">
+<strong>Title</strong>
+<span> - </span>
+<span class="artist">Artist</span>
+</div>
+<div class="progress">
+<div class="timer left">0:00</div>
+<div class="contr">
+<div class="rewind icon"></div>
+<div class="playback icon"></div>
+<div class="fastforward icon"></div>
+</div>
+<div class="right">
+<div class="liebiao icon"></div>
+</div>
+</div>
+</div>
+</div>
+	<div class="ssBtn">
+	        <div class="adf"></div>
+    </div>
+</div>
+<ol id="playlist"></ol>
+</div>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.marquee.min.js"></script>
+
+<script>
+	var	playlist = [
+{title:"这是我一生中最勇敢的瞬间",artist:"棱镜乐队",mp3:"http://music.163.com/song/media/outer/url?id=1366216050.mp3",cover:"http://p4.music.126.net/ysc2LpByNXmzAfz9rRVwYg==/109951165267741474.jpg?param=106x106",},
+{title:"My All",artist:"浜崎あゆみ",mp3:"http://music.163.com/song/media/outer/url?id=22737627.mp3",cover:"http://p4.music.126.net/7VJn16zrictuj5kdfW1qHA==/3264450024433083.jpg?param=106x106",},
+{title:"Try Everything",artist:"Shakira",mp3:"http://music.163.com/song/media/outer/url?id=405485737.mp3",cover:"http://p4.music.126.net/KLw_TLTRUe9pClPv4vlEtQ==/936783906865219.jpg?param=106x106",},
+{title:"Victory",artist:"Two Steps From Hell",mp3:"http://music.163.com/song/media/outer/url?id=31654455.mp3",cover:"http://p4.music.126.net/YXY1vPG5rtdV7w_cWDnNWw==/884007348732141.jpg?param=106x106",},
+{title:"Monody",artist:"TheFatRat,Laura Brehm",mp3:"http://music.163.com/song/media/outer/url?id=36308916.mp3",cover:"http://p3.music.126.net/1odRfg3HXWmYw02EMXKRKQ==/116548232557498.jpg?param=106x106",},
+{title:"Luv Letter",artist:"dj okawari ",mp3:"http://music.163.com/song/media/outer/url?id=406232.mp3",cover:"http://p4.music.126.net/F2fqWwTTT2DAOKPQKQ-G0A==/5892282813545901.jpg?param=106x106",},
+{title:"Born this way",artist:"lady gaga ",mp3:"http://music.163.com/song/media/outer/url?id=21038513.mp3",cover:"http://p4.music.126.net/G2nCsXpMc81lcUY-pOHr9Q==/2528876745541310.jpg?param=106x106",},
+{title:"The Edge of Glory",artist:"Lady Gaga",mp3:"http://music.163.com/song/media/outer/url?id=21038622.mp3",cover:"http://p3.music.126.net/iYG3tZ2xSKrzf65BaDtEJQ==/7929677860524772.jpg?param=106x106",},
+{title:"Beautiful",artist:"Eminem ",mp3:"http://music.163.com/song/media/outer/url?id=1405384220.mp3",cover:"http://p4.music.126.net/F2fqWwTTT2DAOKPQKQ-G0A==/5892282813545901.jpg?param=106x106",},
+{title:"Hall of Fame",artist:"the script/will.i.am",mp3:"http://music.163.com/song/media/outer/url?id=27508559.mp3",cover:"http://p4.music.126.net/d5ryd0uwq29KWk3bRZ1wsA==/45079976751142.jpg?param=106x106",},
+{title:"刚好遇见你",artist:"李玉刚",mp3:"http://music.163.com/song/media/outer/url?id=486188225.mp3",cover:"http://p4.music.126.net/Nn8kTtc14uWJw_UWbEc5mg==/7909886650478099.jpg?param=106x106",},
+];
+  var isRotate = true;
+  var autoplay = true;
+</script>
+<script src="/js/player.js"></script>
+<script>
+
+function bgChange(){
+	var lis= $('.lib');
+	for(var i=0; i<lis.length; i+=2)
+	lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
+}
+window.onload = bgChange;
+</script>
+
+<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title></title>
+	<link rel="stylesheet" href="/css/player.css" />
+
+
+
+<script>
+myVid=document.getElementById("audio1");
+
+function setHalfVolume()
+  { 
+  myVid.volume=0.2;
+  } 
+
+</script> 
+
+
+
+
+
+
+
+
+
+
+<!--
+<a href="/fangke/" style="color:#708090"> <h5>Recent Visitors</h5></a>  
+-->
+
+
+
+</p></p>
+
+  </section>
+</article>
+
+            
+        <div id="comments"></div>
+        
+    <section class="footer">
+    <footer>
+       
+
+
+
+<div class = "footer_div">  
+           
+Copyright &copy; Robotkang 2017-2022.   </div>         
+
+<div class = "footer_div">  
+	Theme by <a href="https://robotkang.cc/">Robotkang</a> |
+            <!--<iframe
+                style="margin-left: 2px; margin-bottom:-5px;"
+                frameborder="0" scrolling="0" width="91px" height="20px"
+                src="https://ghbtns.com/github-btn.html?user=MengZheK&repo=BlogDemo&type=star&count=true" >
+            </iframe>|-->
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/logo/hayato.png" width="55" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>              
+
+<!-- cnzz 
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261874359'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1261874359%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+</div> 
+-->
+      	
+
+<!-- 访问统计 -->
+
+<div class = "footer_div">
+    			
+<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+ 
+Total <span id="busuanzi_value_site_pv"></span> views.  
+您是我的第<span id="busuanzi_value_site_uv"></span> 个访客.
+  
+          </span>
+        </div>
+       
+    </footer>
+</section>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+
+
+
+
+        </div>
+    <script>
+    new Valine({
+        av: AV,
+        el: '#comments',
+        app_id: 'JDVYYFMr1UFSl4srOgHY5Uks-MdYXbMMI',
+        app_key: '9y0CKp1BEkveutixsUOYjfDJ',
+        placeholder:'~\(≧▽≦)/~来啊，快活啊！',
+        avatar:'robohash',
+        path:window.location.pathname,
+        guest_info:['nick','mail','link'] ,
+        pageSize:10,
+        serverURLs: 'https://api.robotkang.cc', 
+    });
+</script>
+
+
+<!--script>
+    new Valine({
+        av: AV,
+        el: '#comments',
+        app_id: '5z3QHKTEMlSqxReRnfeFG1cC-gzGzoHsz',
+        app_key: '59CrEdy9yw1xmqcDQ4JcJbWy',
+        placeholder:'~\(≧▽≦)/~来啊，快活啊！',
+        avatar:'robohash',
+        path:window.location.pathname,
+        guest_info:['nick','mail','link'] ,
+        pageSize:10,
+        serverURLs: 'https://jdvyyfmr.api.lncldglobal.com', 
+    });
+</script-->
+
+
+    </div>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+<script type="text/javascript" src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+    
+
+<!--博客鼠标点击显示文字JS特效代码 -->
+
+<script type="text/javascript">
+
+var a_idx = 0;
+jQuery(document).ready(function($) {
+ $("body").click(function(e) {
+ var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正" ,"法治", "爱国", "敬业", "诚信", "友善");
+ var $i = $("<span/>").text(a[a_idx]);
+ a_idx = (a_idx + 1) % a.length;
+ var x = e.pageX,
+ y = e.pageY;
+ $i.css({
+ "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
+ "top": y - 20,
+ "left": x,
+ "position": "absolute",
+ "font-weight": "bold",
+ "color": "#ff6651"
+ });
+ $("body").append($i);
+ $i.animate({
+ "top": y - 180,
+ "opacity": 0
+ },
+ 1500,
+ function() {
+ $i.remove();
+ });
+ });
+});
+</script>
+
+
+
+</body>
+
+</html>
