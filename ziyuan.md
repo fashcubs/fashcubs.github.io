@@ -7,7 +7,7 @@ title: 资源「USEFUL LINKS」
 > Life is colorful, this website is a window which used to present the color of my life.                  
 
 
-<P>       
+<!-- <P>       
 <h3> Personal Website</h3>     
 <p>   
 
@@ -106,4 +106,4 @@ Markdown语法参考链接:<a href="https://www.zybuluo.com/mdeditor" target="_b
 <a href="http://www.jq22.com/demo/jquery-jfcz20160830/"  target="_blank" >见缝插针</a>-看你过得了多少关..&emsp;
 
 
-<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/0000002.webp" wwidth="100%" height="auto" alt="photos"/>
+<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/0000002.webp" wwidth="100%" height="auto" alt="photos"/> -->

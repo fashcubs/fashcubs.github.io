@@ -65,7 +65,6 @@ nav:
     - {title: 留言, description: liuyan, url: '/liuyan'}
     - {title: 资源, description: ziyuan, url: '/ziyuan'}
     - {title: 关于, description: about, url: '/about'}
-
           
     
 

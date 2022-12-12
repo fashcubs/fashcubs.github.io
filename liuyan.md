@@ -4,22 +4,22 @@ title: 留言板「MESSAGE」
 comments: true 
 ---
 
-<img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/egypt-clipart-desert-pyramid.png" wwidth="100%" height="auto" alt="photos"/>
+<!-- <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/image/egypt-clipart-desert-pyramid.png" wwidth="100%" height="auto" alt="photos"/> -->
 
 
 > 有什么话要对我说吗？             
 > 这里是你畅所欲言的地方，            
 > 可以咨询，可以交流，可以感叹，可以发飙，但不可以订外卖 、、、                
 
-<div class="text-center" style="margin-top: 15px;">
+<!-- <div class="text-center" style="margin-top: 15px;">
     <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/%E5%A4%9A%E5%90%88%E4%B8%80%E6%89%93%E8%B5%8F%E4%BA%8C%E7%BB%B4%E7%A0%81.png" width="128" height="128" title="支付宝、微信、手机QQ扫码打赏">
-</div>
+</div> -->
 
-<p>
+<!-- <p>
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/log_yuan.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
 <a href="/donation/" target="_blank" style="text-decoration:none;color:#FF4500">赞助光荣榜</a> &nbsp;&nbsp;
 <img src="https://robotkang-1257995526.cos.ap-chengdu.myqcloud.com/log_yuan.png" width="20" height="20" alt="photos" style="display:inline;margin-bottom: -5px;"/>
-<a href="/dsimg/" style="color:#FF4500" target="_blank" style="text-decoration:none">Donation</a> &nbsp;&nbsp;
+<a href="/dsimg/" style="color:#FF4500" target="_blank" style="text-decoration:none">Donation</a> &nbsp;&nbsp; -->
 <p>花径不曾缘客扫，蓬门今始为君开！
 我一直相信，所有的相遇都是一种缘分。能够看到这些文字，我们之间就已经产生了些不可言喻，却又令人期待的微妙联系。
 
@@ -42,7 +42,7 @@ comments: true
 -->
 
 
-<div id="QPlayer" class="QPlayer">
+<!-- <div id="QPlayer" class="QPlayer">
 <div id="pContent">
 	<div id="player">
 <span class="cover"></span>
@@ -118,8 +118,7 @@ function setHalfVolume()
   myVid.volume=0.2;
   } 
 
-</script> 
-
+</script>  -->
 
 
 
