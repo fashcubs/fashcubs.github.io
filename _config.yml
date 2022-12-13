@@ -61,10 +61,9 @@ blog_button:
 nav:
     - {title: 文章, description: archive, url: '/archive'}   
     - {title: 标签, description: tags, url: '/tags'}   
-    - {title: 留言, description: liuyan, url: '/liuyan'}
     - {title: 资源, description: ziyuan, url: '/ziyuan'}
+    - {title: 留言, description: liuyan, url: '/liuyan'}
     - {title: 关于, description: about, url: '/about'}
-    
 
 # Pagination
 plugins: [jekyll-paginate]
