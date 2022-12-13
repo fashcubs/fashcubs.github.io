@@ -6,13 +6,13 @@ description: 流水落花春去也,天上人间
 avatarTitle: Big.Fash
 # 头像里面的描述
 avatarDesc: 自留地
-url: "https://robotkang.cc"
+url: "https://fashcubs.github.io/"
 
 # Comment
-comment:
-    provider: duoshuo
-    duoshuo:
-    short_name: robotkang
+#comment:
+#   provider: duoshuo
+#  duoshuo:
+# short_name: robotkang
 
 # Social
 social:
@@ -22,7 +22,6 @@ social:
     # twitter: 
     mail: 
     csdn: 
-
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
 #
@@ -65,7 +64,6 @@ nav:
     - {title: 留言, description: liuyan, url: '/liuyan'}
     - {title: 资源, description: ziyuan, url: '/ziyuan'}
     - {title: 关于, description: about, url: '/about'}
-          
     
 
 # Pagination
